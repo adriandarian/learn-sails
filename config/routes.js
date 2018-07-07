@@ -27,6 +27,12 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
+  '/profile': {
+    view: 'pages/profile'
+  },
+  '/chat': {
+    view: 'pages/chatroom'
+  },
 
   /***************************************************************************
   *                                                                          *
