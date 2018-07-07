@@ -17,6 +17,7 @@
     "sails-hook-grunt": "^3.0.2",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
+    "sails-seed": "^0.5.0",
     "semantic-ui-css": "^2.3.2"
   },
   "devDependencies": {
