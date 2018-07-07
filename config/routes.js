@@ -28,7 +28,8 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
   '/profile': {
-    view: 'pages/profile'
+    controller: 'UserController',
+    action: 'render'
   },
   '/chat': {
     view: 'pages/chatroom'
