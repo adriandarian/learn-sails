@@ -1,4 +1,4 @@
-# learn-sails
+# learn-sails Empty
 
 a [Sails v1](https://sailsjs.com) application
 
