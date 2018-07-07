@@ -68,6 +68,8 @@ var jsFilesToInject = [
   'vendor/jquery/dist/jquery.js',
   'vendor/semantic/dist/semantic.js',
   'vendor/jsrender/jsrender.js',
+  'vendor/jquery/jquery.min.js',
+  'vendor/semantic-ui/semantic.js',
 
   // Bring in `.js` files for any other client-side JavaScript dependencies.
   // (e.g. Lodash, Vue.js, jQuery, Bootstrap, Ember, Angular, etc.)

@@ -11,14 +11,17 @@
     "async": "2.0.1",
     "grunt": "1.0.1",
     "jshint": "^2.9.5",
+    "jsrender": "^0.9.90",
     "sails": "^1.0.2",
     "sails-hook-autoreload": "^0.14.3",
     "sails-hook-grunt": "^3.0.2",
     "sails-hook-orm": "^2.0.0-16",
-    "sails-hook-sockets": "^1.4.0"
+    "sails-hook-sockets": "^1.4.0",
+    "semantic-ui-css": "^2.3.2"
   },
   "devDependencies": {
-    "@sailshq/eslint": "^4.19.3"
+    "@sailshq/eslint": "^4.19.3",
+    "grunt-contrib-copy": "1.0.0"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
