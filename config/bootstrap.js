@@ -27,6 +27,8 @@ module.exports.bootstrap = async function(done) {
   // ]);
   // ```
 
+  sails.config.appName = "Sails Chat App";
+
   // Don't forget to trigger `done()` when this bootstrap function's logic is finished.
   // (otherwise your server will never lift, since it's waiting on the bootstrap)
   return done();
