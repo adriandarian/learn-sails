@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "adrian"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/adriandarian/learn-sails",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.3.2",
+    "jsrender": "^0.9.90"
+  }
+}
