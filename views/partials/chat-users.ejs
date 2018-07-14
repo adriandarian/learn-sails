@@ -31,7 +31,7 @@
   }
 
   function renderChatUsers(data) {
-    const template = jsrender.templates('#usersTemplate');
+    const template = $.templates('#usersTemplate');
     let htmlOutput = template.render(data);
     $('#users-content').html(htmlOutput);
   }
