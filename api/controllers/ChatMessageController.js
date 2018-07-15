@@ -17,7 +17,7 @@ module.exports = {
     }
 
     try {
-        let user = await User.findOne({email:'johnnie86@gmail.com'});
+        let user = await User.findOne({id:request.session.userId});
         let msg = await ChatMessage.create({message:request.body.message, createdBy:user });
         if(!msg.id) {
             throw new Error('Message processing failed!');
