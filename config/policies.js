@@ -19,4 +19,11 @@ module.exports.policies = {
 
   // '*': true,
 
+  ChatMessageController: {
+    '*': 'sessionAuth'
+  },
+  UserController: {
+    '*': 'sessionAuth'
+  },
+
 };

@@ -33,7 +33,11 @@ module.exports.routes = {
   },
   '/chat': {
     view: 'pages/chatroom'
-  },
+    }, // Add comma here
+    '/postMessage': {
+    controller: 'ChatMessageController',
+    action: 'postMessage'
+  }
 
   /***************************************************************************
   *                                                                          *
