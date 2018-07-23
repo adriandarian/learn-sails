@@ -17,8 +17,22 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
-
+  '*': [
+    'basicAuth',
+    'passport',
+    'sessionAuth',
+    'ModelPolicy',
+    'AuditPolicy',
+    'OwnerPolicy',
+    'PermissionPolicy',
+    'RolePolicy',
+    'CriterialPolicy'
+  ],
+  AuthController: {
+    '*': [
+      'passport'
+    ]
+  },
   ChatMessageController: {
     '*': 'sessionAuth'
   },
