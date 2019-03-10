@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "assets/vendor/semantic/package.json",
+        "assets/vendor/semantic/tasks/config/admin/templates/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
