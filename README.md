@@ -1,5 +1,7 @@
 # learn-sails
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adriandarian/learn-sails.svg)](https://greenkeeper.io/)
+
 a [Sails v1](https://sailsjs.com) application
 
 
